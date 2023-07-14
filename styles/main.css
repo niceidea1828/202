@@ -1,0 +1,44 @@
+.man {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.club {
+  position: absolute;
+  left: 180px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 3;
+}
+
+.links {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 5;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.link_play {
+  width: 268px;
+  height: 99.932px;
+}
+
+.link_policy {
+  width: 268px;
+  height: 46.559px;
+
+  font-size: 22.825px;
+  font-style: italic;
+  font-weight: 300;
+
+  border-radius: 17.034px;
+  background: #525252;
+}
